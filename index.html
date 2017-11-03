@@ -47,11 +47,11 @@
         attribution: 'Created with a MapBox style'
     }).addTo(map);
 
+    // Add the Stations over the study area to the map.
+    CORS_Stations= L.geoJson.ajax("assets/Test.geojson");
+    CORS_Stations.addTo(map);
 
-//
-//    CORS_Stations= L.geoJson.ajax("assets/Test.geojson");
-//    // Add the Stations over the study area to the map.
-//    CORS_Stations.addTo(map);
+
 </script>
 </body>
 </html>

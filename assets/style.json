@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Odyssey-copy",
+    "name": "Odyssey-BaseMap",
     "metadata": {
         "mapbox:autocomposite": true,
         "mapbox:type": "default",
@@ -45,7 +45,7 @@
     "pitch": 0,
     "sources": {
         "composite": {
-            "url": "mapbox://mapbox.mapbox-streets-v7,hoda-tahami.bn3ubs78",
+            "url": "mapbox://mapbox.mapbox-streets-v7",
             "type": "vector"
         }
     },
@@ -1608,39 +1608,11 @@
                 "line-color": "hsl(70, 10%, 29%)",
                 "line-width": 1.2
             }
-        },
-        {
-            "id": "1-second-cors",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "1_second_CORS",
-            "layout": {
-                "visibility": "visible",
-                "icon-image": "triangle-15",
-                "icon-size": {
-                    "base": 1.5,
-                    "stops": [
-                        [
-                            0,
-                            0.5
-                        ],
-                        [
-                            11,
-                            3
-                        ],
-                        [
-                            16,
-                            6
-                        ]
-                    ]
-                }
-            },
-            "paint": {}
         }
     ],
     "created": "2017-11-02T22:56:22.120Z",
     "id": "cj9j2lkb52uwl2spkgiqcuck8",
-    "modified": "2017-11-02T23:43:12.384Z",
+    "modified": "2017-11-02T23:56:15.718Z",
     "owner": "hoda-tahami",
     "visibility": "private",
     "draft": false
