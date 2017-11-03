@@ -4,7 +4,7 @@ By using dark colors and a dark background encourges the map and its focus on th
 Therefore, The highlited features in the first galance in this base map should be the distribution of the GPS stations and their closeness to the coast line. That is the reason for adding the stations location as a new layer (.kml) to the basemap.
 The colors are selected by the color pallete #3566 ( http://colorpalettes.net/) so that the consistancy between level of colors  can be seen in the basemap.The changes of the fonts and colors have been used for different level of zoom scale to make visible more deteails when it needs based on the zoom scale. In order to use symbols (.svg) for some of the layers such as airports, stations and etc, the MAKI icon editor has been used.
 
-http://cdn.rawgit.com/HodaTahami/Meteorology-Basemap/master/index.html
+https://cdn.rawgit.com/HodaTahami/Meteorology-Basemap/23017f8e/index.html
 
 
 ### WFS URL
